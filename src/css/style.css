@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: #fafafa;
+}
+
+
+
+body {
+font-size: 100%;
+background-color: hsl(219, 84%, 30%)
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.imagem-logo{
+     height: 72px;
+    left: 200%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: hsl(219, 84%, 30%);
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.nome{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.conteudo-principal-imagem{
+    width: 1349px;
+    margin:auto;
+}
+
+.conteudo-principal{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.conteudo-principal-escrito-titulo{
+    position: absolute;
+    right: auto;
+    bottom: 310px;
+    font-size: 110%;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(219, 84%, 30%);
+    font-size: 210%;
+    margin: 20px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .conteudo-secundario-item{
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+    margin: 15px;
+ }
+
+ .conteudo-secundario-titulo{
+    color: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+    margin: 15px;
+ }
+
+ .video{
+    margin: auto;
+    width: 1347px;
+    
+ }
+
+ .rodape{
+    background-color: #fafafa;
+ }
+
+ .creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+ }
+
+
+ .youtube{
+    color: #fafafa;
+ }
